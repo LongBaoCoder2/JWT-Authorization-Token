@@ -1,0 +1,22 @@
+GET http://localhost:3000/posts
+Authorization: Beare eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJxbmd1eWV0IiwiaWF0IjoxNjc1ODI2MDcwLCJleHAiOjE2NzU4MjYxMzB9.kvtSkjFHLdvIzzY6YJW1kwbNC0vzuFzPuWQIzoDSTak
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "username" : "qnguyet"
+}
+
+###
+DELETE http://localhost:5000/logout
+Authorization: Beare eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJxbmd1eWV0IiwiaWF0IjoxNjc1ODI2MDcwLCJleHAiOjE2NzU4MjYxMzB9.kvtSkjFHLdvIzzY6YJW1kwbNC0vzuFzPuWQIzoDSTak
+
+###
+POST http://localhost:5000/token
+Content-type: application/json
+
+{
+    "refreshToken" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJxbmd1eWV0IiwiaWF0IjoxNjc1ODI2MDQyLCJleHAiOjE2NzU4Mjk2NDJ9.QfOnCldej7oo_WG4zvdB_owT1Big00tZIqUf37HvDi4"
+}
