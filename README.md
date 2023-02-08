@@ -1,6 +1,6 @@
 # JWT-Authorization-Token
 ## Clone Repo
-run command `git clone https://github.com/LongBaoCoder2/JWT-Authorization-Token.git`
+Run command `git clone https://github.com/LongBaoCoder2/JWT-Authorization-Token.git`
 
 ## Setup server
 Server: run `npm run start` or `yarn start`
