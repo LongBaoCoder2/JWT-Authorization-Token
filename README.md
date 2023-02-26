@@ -3,7 +3,7 @@
 Run command `git clone https://github.com/LongBaoCoder2/JWT-Authorization-Token.git`.
 
 ## Setup server
-Server: run `npm run start` or `yarn start`.
+Server: run `npm run start` or `yarn start`. \
 AuthServer: run `npm run auth` or `yarn auth`.
 
 ## Run test:
